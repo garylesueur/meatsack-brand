@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
+  <title id="title">showmeatsack.com</title>
+  <desc id="description">The word show above meatsack.com on a warm square plate.</desc>
+  <rect width="512" height="512" rx="80" fill="#f6f1e7"/>
+  <path d="M72 88h368v8H72z" fill="#287566"/>
+  <text
+    x="64"
+    y="274"
+    fill="#173f38"
+    font-family="Geist, Inter, Arial, sans-serif"
+    font-size="148"
+    font-weight="700"
+    letter-spacing="-9"
+  >show</text>
+  <text
+    x="70"
+    y="342"
+    fill="#3e4b47"
+    font-family="Geist Mono, SFMono-Regular, Consolas, monospace"
+    font-size="43"
+    font-weight="600"
+    letter-spacing="-2"
+  >meatsack.com</text>
+  <circle cx="416" cy="414" r="28" fill="#287566"/>
+  <circle cx="416" cy="414" r="9" fill="#f6f1e7"/>
+</svg>
