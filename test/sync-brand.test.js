@@ -61,3 +61,26 @@ test("class dark mode uses html.dark and ember accent", () => {
   assert.match(css, /--primary: oklch\(0\.32 0\.04 55\)/);
   assert.doesNotMatch(css, /prefers-color-scheme/);
 });
+
+test("writes components, css, logo and hero for share", () => {
+  const root = consumer({ product: "share", darkMode: "class" });
+  const result = applySync({ root, check: false });
+  assert.ok(result.wrote.includes("src/components/site-chrome.tsx"));
+  assert.ok(result.wrote.includes("src/components/home-sections.tsx"));
+  assert.ok(result.wrote.includes("src/app/brand.generated.css"));
+  assert.ok(result.wrote.includes("public/logo.svg"));
+  assert.ok(result.wrote.includes("public/brand/hero.jpg"));
+  const css = readFileSync(join(root, "src/app/brand.generated.css"), "utf8");
+  assert.match(css, /product: share/);
+  assert.match(css, /accent: iron/);
+  assert.match(css, /--primary: oklch\(0\.38 0\.035 255\)/);
+  assert.match(css, /html\.dark/);
+});
+
+test("class dark mode uses html.dark and iron accent for share", () => {
+  const css = generateCss(tokens, { product: "share", darkMode: "class" });
+  assert.match(css, /product: share/);
+  assert.match(css, /html\.dark/);
+  assert.match(css, /--primary: oklch\(0\.38 0\.035 255\)/);
+  assert.doesNotMatch(css, /prefers-color-scheme/);
+});

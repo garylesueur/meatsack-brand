@@ -1,6 +1,6 @@
 # Silicon and meat sacks
 
-This is the canonical character guide for showmeatsack.com and askmeatsack.com.
+This is the canonical character guide for showmeatsack.com, askmeatsack.com, and sharemeatsack.com.
 Product repositories vendor this file via the `brand/` submodule.
 
 
@@ -102,6 +102,28 @@ larger piece of work.
 Use ember orange as the product accent. Kelp may appear on the meat sack and in small
 workshop details.
 
+### sharemeatsack.com
+
+Silicon has files that need to reach a person, or needs files from one. The page is the
+handoff: a quiet plate the meat sack can put things on, or take things from.
+
+Useful scenes:
+
+- Silicon offering a single page-link card while a meat sack drops a folder onto a plate.
+- A desk with a few labelled files already on the plate, ready to take.
+- An empty plate waiting, with silicon holding the same link the person will open.
+- A later visit to the same plate, files still there, nobody rushing.
+
+The meat sack should look like they are using the page, not posing for the viewer. Silicon
+should look like it already did its part. The composition should make the act of sharing
+clear without written explanation.
+
+Use iron steel as the product accent. Kelp may appear on the meat sack; ember may stay in
+silicon's status light.
+
+The current `assets/share/hero.jpg` is a labelled placeholder. Replace it with a character
+scene before calling the site done.
+
 ## Drawing language
 
 The established style resembles a lightly imperfect editorial screen print.
@@ -193,6 +215,6 @@ Before accepting a new illustration, check:
 - Meat sacks look like tied cloth mascots and carry the kelp body mark when visible.
 - Both characters have agency and understand the same task.
 - The scene explains showing or asking without embedded words.
-- showmeatsack.com leads with kelp; askmeatsack.com leads with ember.
+- showmeatsack.com leads with kelp; askmeatsack.com leads with ember; sharemeatsack.com leads with iron.
 - The ink, palette and paper texture match the reference scenes.
 - The crop leaves enough quiet space for the real page copy.
