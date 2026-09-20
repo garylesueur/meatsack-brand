@@ -1,7 +1,8 @@
 # meatsack-brand
 
-Canonical brand source for [showmeatsack.com](https://showmeatsack.com) and
-[askmeatsack.com](https://askmeatsack.com).
+Canonical brand source for [showmeatsack.com](https://showmeatsack.com),
+[askmeatsack.com](https://askmeatsack.com), and
+[sharemeatsack.com](https://sharemeatsack.com).
 
 This repository is documentation, artwork, tokens, and the shared homepage
 shell. It is not a runtime package. Product apps vendor it as a git submodule
@@ -13,9 +14,9 @@ at `brand/` and copy selected files in with `scripts/sync-brand.mjs`.
 | --- | --- |
 | `docs/characters.md` | Silicon and meat sack appearance, relationship, scenes |
 | `docs/voice.md` | Shared vocabulary and where the joke belongs |
-| `tokens/tokens.json` | Shared light/dark tokens and kelp / ember accents |
+| `tokens/tokens.json` | Shared light/dark tokens and kelp / ember / iron accents |
 | `components/` | `site-chrome.tsx` and `home-sections.tsx`, including `HeroScene` |
-| `assets/show/` `assets/ask/` | Production logos and homepage heroes |
+| `assets/show/` `assets/ask/` `assets/share/` | Production logos and homepage heroes |
 | `assets/shared/` | Failure artwork |
 | `assets/reference/` | Character-guide reference scenes |
 
@@ -42,7 +43,7 @@ git submodule add https://github.com/garylesueur/meatsack-brand.git brand
 }
 ```
 
-`product` is `show` or `ask`. `darkMode` is `media` (prefers-color-scheme) or
+`product` is `show`, `ask`, or `share`. `darkMode` is `media` (prefers-color-scheme) or
 `class` (`html.dark`). Then:
 
 ```bash
@@ -59,6 +60,7 @@ Shared semantic colours (paper, ink, machine panel, radius) plus one accent:
 
 - **kelp** — showmeatsack.com
 - **ember** — askmeatsack.com
+- **iron** — sharemeatsack.com
 
 The generated CSS sets CSS variables only. Each app keeps its own Tailwind
 `@theme` mapping and, for askmeatsack.com, the shadcn / questionnaire layer.

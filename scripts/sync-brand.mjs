@@ -12,7 +12,7 @@ import { fileURLToPath } from "node:url";
 
 const BRAND_ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const GENERATED_BANNER = "Generated from meatsack-brand. Do not edit.";
-const PRODUCTS = ["show", "ask"];
+const PRODUCTS = ["show", "ask", "share"];
 const DARK_MODES = ["media", "class"];
 const DEFAULT_PATHS = {
   css: "src/app/brand.generated.css",

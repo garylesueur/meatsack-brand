@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Canonical brand source for showmeatsack.com and askmeatsack.com.",
+  "description": "Canonical brand source for showmeatsack.com, askmeatsack.com, and sharemeatsack.com.",
   "scripts": {
     "test": "node --test test/sync-brand.test.js"
   },
