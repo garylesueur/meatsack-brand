@@ -121,9 +121,6 @@ clear without written explanation.
 Use iron steel as the product accent. Kelp may appear on the meat sack; ember may stay in
 silicon's status light.
 
-The current `assets/share/hero.jpg` is a labelled placeholder. Replace it with a character
-scene before calling the site done.
-
 ## Drawing language
 
 The established style resembles a lightly imperfect editorial screen print.
@@ -185,6 +182,16 @@ small amount of human context lets it continue.
 
 The final-detail scene makes choice and judgement visible without relying on form fields or
 written questions.
+
+### sharemeatsack.com
+
+![Silicon offers a page-link card while a meat sack puts a folder on an iron plate.](../assets/share/hero.jpg)
+
+The plate is the handoff. Silicon already did its part. The meat sack is using the page.
+
+![A meat sack takes a folder from the same plate on a later visit.](../assets/reference/share-plate.jpg)
+
+The later visit shows the files still there, nobody rushing.
 
 ### Error state
 
