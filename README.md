@@ -1,8 +1,8 @@
 # meatsack-brand
 
-Canonical brand source for [showmeatsack.com](https://showmeatsack.com),
-[askmeatsack.com](https://askmeatsack.com), and
-[sharemeatsack.com](https://sharemeatsack.com).
+Canonical brand source for [show.imeatsack.com](https://show.imeatsack.com),
+[ask.imeatsack.com](https://ask.imeatsack.com), and
+[share.imeatsack.com](https://share.imeatsack.com).
 
 This repository is documentation, artwork, tokens, and the shared homepage
 shell. It is not a runtime package. Product apps vendor it as a git submodule
@@ -58,9 +58,9 @@ header; change the source here, bump the submodule, and re-sync.
 
 Shared semantic colours (paper, ink, machine panel, radius) plus one accent:
 
-- **kelp** — showmeatsack.com
-- **ember** — askmeatsack.com
-- **iron** — sharemeatsack.com
+- **kelp** — show.imeatsack.com
+- **ember** — ask.imeatsack.com
+- **iron** — share.imeatsack.com
 
 The generated CSS sets CSS variables only. Each app keeps its own Tailwind
-`@theme` mapping and, for askmeatsack.com, the shadcn / questionnaire layer.
+`@theme` mapping and, for ask.imeatsack.com, the shadcn / questionnaire layer.
