@@ -6,10 +6,10 @@ status: future
 
 # How the product talks
 
-Canonical voice guidance for showmeatsack.com and askmeatsack.com. Product spec
+Canonical voice guidance for show.imeatsack.com and ask.imeatsack.com. Product spec
 trees should point here rather than keeping a second copy.
 
-**showmeatsack.com** is a silly name doing a serious job. The joke is an asset — it is why
+**show.imeatsack.com** is a silly name doing a serious job. The joke is an asset — it is why
 the name sticks, and it is honest about what the product is: a machine handing something to
 a person. This spec is where the voice is decided once, and where the switch that turns it
 off lives, because some of the people paying for this will not want any of it.
@@ -60,7 +60,7 @@ deliberately, not discover it in front of a customer.
 
 ### B7 — The two products sound like one company 🔵 future
 
-showmeatsack.com and askmeatsack.com use the same vocabulary, the same jokes, and the same
+show.imeatsack.com and ask.imeatsack.com use the same vocabulary, the same jokes, and the same
 plain voice when it is asked for. A person who meets both should not think they are dealing
 with two different outfits.
 
@@ -77,7 +77,7 @@ get a differently-named product. The joke is either worth making or it is not.
 - The word *meatsack* describes the product's stance, never the reader.
 - An account's chosen voice reaches everything its own readers see, and nothing else.
 - Branded and custom-domain surfaces start plain, and the playful voice there is opt-in.
-- British English, and the product names stay lower case: showmeatsack.com, askmeatsack.com,
+- British English, and the product names stay lower case: show.imeatsack.com, ask.imeatsack.com,
   lanyard.
 - The voice never changes what a thing does, what it costs, or who can see it.
 

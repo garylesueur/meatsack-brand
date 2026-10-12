@@ -1,6 +1,6 @@
 # Silicon and meat sacks
 
-This is the canonical character guide for showmeatsack.com, askmeatsack.com, and sharemeatsack.com.
+This is the canonical character guide for show.imeatsack.com, ask.imeatsack.com, and share.imeatsack.com.
 Product repositories vendor this file via the `brand/` submodule.
 
 
@@ -64,7 +64,7 @@ the difference in their strengths.
 
 ## Product stories
 
-### showmeatsack.com
+### show.imeatsack.com
 
 Silicon has made or found something worth seeing and presents it to one or more meat sacks.
 The finished work should occupy a visible screen, stage, board or display.
@@ -83,7 +83,7 @@ written explanation.
 Use kelp green as the product accent. Ember can appear in silicon's status light and a few
 small details.
 
-### askmeatsack.com
+### ask.imeatsack.com
 
 Silicon is building something ambitious and pauses because human context is missing. The
 question should look small and specific beside the scale of the work.
@@ -102,7 +102,7 @@ larger piece of work.
 Use ember orange as the product accent. Kelp may appear on the meat sack and in small
 workshop details.
 
-### sharemeatsack.com
+### share.imeatsack.com
 
 Silicon has files that need to reach a person, or needs files from one. The page is the
 handoff: a quiet plate the meat sack can put things on, or take things from.
@@ -160,7 +160,7 @@ state makes the product look unreliable.
 
 ## Reference scenes
 
-### showmeatsack.com
+### show.imeatsack.com
 
 ![Silicon presents a projected page to meat sacks in a classroom.](../assets/reference/show-classroom.jpg)
 
@@ -171,11 +171,11 @@ pointer, attentive audience and kelp-led palette.
 
 The theatre adds ceremony and suits launches, showcases and presentations.
 
-### askmeatsack.com
+### ask.imeatsack.com
 
 ![Silicon pauses a rocket build to ask a meat sack a few questions.](../assets/reference/ask-workshop.jpg)
 
-The workshop captures the core askmeatsack.com story: substantial work is under way and a
+The workshop captures the core ask.imeatsack.com story: substantial work is under way and a
 small amount of human context lets it continue.
 
 ![Silicon asks a meat sack to choose the final part for a machine.](../assets/reference/ask-final-detail.jpg)
@@ -183,7 +183,7 @@ small amount of human context lets it continue.
 The final-detail scene makes choice and judgement visible without relying on form fields or
 written questions.
 
-### sharemeatsack.com
+### share.imeatsack.com
 
 ![Silicon offers a page-link card while a meat sack puts a folder on an iron plate.](../assets/share/hero.jpg)
 
@@ -202,7 +202,7 @@ shapes, ink treatment and failure-only damage cues.
 
 Start new image prompts with this foundation:
 
-> Use the established showmeatsack.com character family and handmade editorial screen-print
+> Use the established show.imeatsack.com character family and handmade editorial screen-print
 > style. Silicon is a small intact charcoal computer chip with expressive cream eyes, thin
 > limbs, visible pins and one ember status light. Meat sacks are warm cream tied cloth
 > characters with olive limbs, simple expressive faces and a muted kelp steak-cut emblem.
@@ -222,6 +222,6 @@ Before accepting a new illustration, check:
 - Meat sacks look like tied cloth mascots and carry the kelp body mark when visible.
 - Both characters have agency and understand the same task.
 - The scene explains showing or asking without embedded words.
-- showmeatsack.com leads with kelp; askmeatsack.com leads with ember; sharemeatsack.com leads with iron.
+- show.imeatsack.com leads with kelp; ask.imeatsack.com leads with ember; share.imeatsack.com leads with iron.
 - The ink, palette and paper texture match the reference scenes.
 - The crop leaves enough quiet space for the real page copy.
