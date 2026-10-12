@@ -221,6 +221,13 @@ function filesFor(config, tokens) {
   const product = tokens.products[config.product];
   const files = [
     {
+      dest: join(config.paths.components, "color-mode-toggle.tsx"),
+      contents: generatedTsx(
+        "components/color-mode-toggle.tsx",
+        readFileSync(join(BRAND_ROOT, "components/color-mode-toggle.tsx"), "utf8"),
+      ),
+    },
+    {
       dest: join(config.paths.components, "site-chrome.tsx"),
       contents: generatedTsx(
         "components/site-chrome.tsx",
