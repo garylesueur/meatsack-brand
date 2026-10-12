@@ -54,6 +54,13 @@ node brand/scripts/sync-brand.mjs --check
 `--check` is what CI and `pnpm test` run. Generated files carry a do-not-edit
 header; change the source here, bump the submodule, and re-sync.
 
+## Family navigation
+
+The shared header links **I, Meatsack** to `https://imeatsack.com` and offers
+**Ask**, **Share**, and **Show** at their canonical subdomains on every screen size.
+Pass `product` to `SiteShell` to identify the current product. The footer holds
+the source, author, and agent documents; product navigation stays in the header.
+
 ## Tokens
 
 Shared semantic colours (paper, ink, machine panel, radius) plus one accent:
